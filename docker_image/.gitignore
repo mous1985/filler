@@ -1,0 +1,17 @@
+# .gitignore
+*node_modules/*
+*.DS_Store
+*.dll
+*.exe
+*.war
+*.jar
+cargo.lock
+target
+result.txt
+Dockerfile
+linux_robots
+m1_game_engine
+m1_robots
+maps
+
+

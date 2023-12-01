@@ -84,7 +84,7 @@ fn place_piece(grid: &Vec<Vec<char>>, piece: &Vec<Vec<char>>, pcoords: &Vec<(usi
     //let mut solutions = Vec::new(); // vector that will contain all solutions
     let mut sol = (0,0);
     // pour optimiser le test de placement de pièces on trouve le carré dans lequel se trouvent nos points
-    let (mut xmin,mut xmax,mut ymin,mut ymax) = (grid.len(),0,grows,0);
+    let (mut xmin,mut xmax,mut ymin,mut ymax) = (grid.len(),0,grows,0);//les coordonnées du carré
     for (xg,yg) in pcoords {
         if xg < &xmin {xmin=*xg}
         if xg > &xmax {xmax=*xg}
